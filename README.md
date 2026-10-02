@@ -1,33 +1,111 @@
-# 👨‍💼 HR Analytics Dashboard (Power BI)  
+![HR Analytics Banner](banner__.svg)
 
-## 📌 Project Overview  
-The **HR Analytics Dashboard** is designed to provide key insights into employee data, enabling organizations to monitor workforce trends, improve retention, and make data-driven HR decisions. Using **Power BI**, the dashboard visualizes critical HR metrics such as attrition, employee demographics, job satisfaction, and performance.  
+# 👨‍💼 HR Analytics Dashboard | Power BI
 
-## 🛠️ Tools & Technologies  
-- **Power BI**: Interactive dashboards, charts, slicers  
-- **Excel / CSV**: Data cleaning and preprocessing  
-- **Power Query**: Data transformation and modeling  
-
-## 📊 Key Features  
-- **Attrition Analysis**: Identifies trends in employee turnover across departments, job roles, and age groups.  
-- **Demographics Insights**: Visualizes employee distribution by gender, education, and marital status.  
-- **Performance & Satisfaction**: Tracks employee satisfaction ratings, job roles, and performance levels.  
-- **Drill-Down Dashboards**: Enables interactive filtering by department, job role, and other employee attributes.  
-- **KPI Tracking**: Highlights total employees, attrition rate, average salary, and years of service.  
-
-## 📈 Insights  
-- Departments with higher attrition rates can be identified, helping HR take corrective actions.  
-- Job satisfaction levels correlate with employee retention and performance outcomes.  
-- Employee demographics provide clarity on workforce diversity and hiring needs.  
-- Actionable insights empower HR managers to **optimize hiring, retention, and employee engagement strategies**.  
-
-## ✅ Conclusion  
-The HR Analytics Dashboard serves as a powerful tool for **strategic workforce planning**. By integrating data visualization and interactive reporting, HR teams can make **evidence-based decisions** to reduce attrition, improve employee satisfaction, and strengthen organizational performance.  
-
-## 🚀 How to Use This Project  
-1. Open the `HR_Analytics_Dashboard.pbix` file in **Power BI Desktop**.  
-2. Connect to the provided dataset (`HR_Data.xlsx` or `.csv`).  
-3. Explore interactive visuals by applying filters and slicers.  
-4. Export reports or publish the dashboard to **Power BI Service** for organizational use.  
+Analysis of **employee records** to understand attrition drivers, workforce demographics, job satisfaction and performance, and to support data-driven HR decisions.
 
 ---
+
+## 📌 Project Overview
+
+Employee attrition is costly for any organization, and HR teams often can't see where it is happening or why. This project turns raw employee data into an interactive Power BI dashboard to answer:
+
+- Which departments and job roles have the highest attrition?
+- Which age groups and employee segments are leaving the most?
+- How do job satisfaction and work-life balance relate to attrition?
+- Does compensation (monthly income, salary hike) play a role in employee exits?
+- What does the workforce look like by gender, education and marital status?
+
+The workflow covers the full analytics pipeline: **raw data → Power Query cleaning → data modeling → Power BI dashboard.**
+
+---
+
+## 🖼️ Dashboard Preview
+
+![HR Analytics Dashboard](dashboard.png)
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Stage                          | Tool        |
+| ------------------------------ | ----------- |
+| Data storage & cleaning        | Excel / CSV |
+| Data transformation & modeling | Power Query |
+| Dashboard & visualization      | Power BI    |
+
+---
+
+## 📂 Repository Contents
+
+| File                                  | Description                                  |
+| ------------------------------------- | -------------------------------------------- |
+| `HR_Analytics.csv`                    | Raw employee dataset                         |
+| `HR Analytics Dashboard.pbix`         | Power BI dashboard file                      |
+| `HR Analytics data and dashboard.zip` | Packaged data + dashboard for offline use    |
+| `dashboard.png`                       | Screenshot of the dashboard                  |
+| `banner.svg`                          | README banner                                |
+
+---
+
+## 📊 Dataset
+
+Each row represents a single employee and includes:
+
+- **Demographics:** age, gender, education, marital status
+- **Job details:** department, job role, job level, years at company
+- **Compensation:** monthly income, salary hike
+- **Engagement & performance:** job satisfaction, performance rating, work-life balance
+- **Outcome:** attrition status (employee left or stayed)
+
+---
+
+## 🔍 Data Preparation
+
+Using Excel and Power Query, the raw CSV was cleaned and structured for analysis:
+
+1. **Data cleaning**: checked for duplicates, missing values and inconsistent formats
+2. **Data typing**: set correct data types for numeric, categorical and attrition fields
+3. **Transformation**: created groupings (such as age groups) for easier segmentation
+4. **Data modeling**: loaded the prepared data into Power BI and defined the measures behind the KPIs
+
+---
+
+## 📈 Power BI Dashboard
+
+An interactive dashboard was built so HR stakeholders can explore attrition drivers without touching the raw data. It includes:
+
+- KPI cards for total employees, attrition rate, average salary and average years of service
+- Attrition breakdown by department, job role and age group
+- Demographic views by gender, education and marital status
+- Job satisfaction, work-life balance and performance comparisons
+- Slicers and drill-downs for department, job role and other employee attributes
+
+---
+
+## 💡 Key Insights
+
+- Departments and job roles with higher attrition stand out clearly, so retention efforts can be prioritised where they matter most.
+- Job satisfaction and work-life balance scores visibly relate to attrition and performance outcomes.
+- Demographic breakdowns (gender, education, marital status) show workforce diversity patterns relevant to hiring strategy.
+- Compensation and salary hike patterns can be compared against attrition to check whether pay contributes to exits.
+
+---
+
+## ✅ Recommendations
+
+- Focus retention initiatives on the **departments and job roles with the highest attrition**.
+- Investigate **low job satisfaction and work-life balance** scores and address them through targeted engagement programs.
+- Review **salary hike patterns** against attrition to check whether pay is a contributing factor.
+- Use the demographic views to identify **diversity gaps** and inform more balanced hiring.
+
+---
+
+## 🚀 How to Reproduce
+
+1. Download or clone this repository.
+2. Open `HR Analytics Dashboard.pbix` in **Power BI Desktop**.
+3. If prompted, point the data source to `HR_Analytics.csv` (**Home → Transform data → Data source settings**) and click **Refresh**.
+4. Use the slicers and filters to explore attrition, department, job role and demographic breakdowns.
+5. Optionally publish to **Power BI Service** to share the dashboard with a team.
+
