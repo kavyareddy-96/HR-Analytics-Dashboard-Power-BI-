@@ -43,8 +43,7 @@ The workflow covers the full analytics pipeline: **raw data → Power Query clea
 | `HR_Analytics.csv`                    | Raw employee dataset                         |
 | `HR Analytics Dashboard.pbix`         | Power BI dashboard file                      |
 | `HR Analytics data and dashboard.zip` | Packaged data + dashboard for offline use    |
-| `dashboard.png`                       | Screenshot of the dashboard                  |
-| `banner.svg`                          | README banner                                |
+
 
 ---
 
