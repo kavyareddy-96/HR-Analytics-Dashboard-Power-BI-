@@ -103,8 +103,3 @@ An interactive dashboard was built so HR stakeholders can explore attrition driv
 
 ---
 
-## 👩‍💻 Author
-
-**Yelluru Kavya**
-Data Analyst | SQL • Power BI • Python • Excel
-📧 yellurukavya06@gmail.com | [GitHub](https://github.com/kavyareddy-96)
