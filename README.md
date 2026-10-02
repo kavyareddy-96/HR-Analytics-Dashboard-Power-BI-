@@ -1,4 +1,4 @@
-![HR Analytics Banner](banner__.svg)
+![HR Analytics Banner](banner.svg)
 
 # 👨‍💼 HR Analytics Dashboard | Power BI
 
@@ -22,7 +22,7 @@ The workflow covers the full analytics pipeline: **raw data → Power Query clea
 
 ## 🖼️ Dashboard Preview
 
-![HR Analytics Dashboard](dashboard.png)
+![HR Analytics Dashboard](Screenshot%20of%20HR%20Analytics.png)
 
 ---
 
@@ -43,7 +43,8 @@ The workflow covers the full analytics pipeline: **raw data → Power Query clea
 | `HR_Analytics.csv`                    | Raw employee dataset                         |
 | `HR Analytics Dashboard.pbix`         | Power BI dashboard file                      |
 | `HR Analytics data and dashboard.zip` | Packaged data + dashboard for offline use    |
-
+| `Screenshot of HR Analytics.png`      | Screenshot of the dashboard                  |
+| `banner.svg`                          | README banner                                |
 
 ---
 
@@ -80,8 +81,6 @@ An interactive dashboard was built so HR stakeholders can explore attrition driv
 - Job satisfaction, work-life balance and performance comparisons
 - Slicers and drill-downs for department, job role and other employee attributes
 
-- ![HR Analytics Dashboard](Screenshot of HR Analytics.png)
-
 ---
 
 ## 💡 Key Insights
@@ -110,3 +109,10 @@ An interactive dashboard was built so HR stakeholders can explore attrition driv
 4. Use the slicers and filters to explore attrition, department, job role and demographic breakdowns.
 5. Optionally publish to **Power BI Service** to share the dashboard with a team.
 
+---
+
+## 👩‍💻 Author
+
+**Yelluru Kavya**
+Data Analyst | SQL • Power BI • Python • Excel
+📧 yellurukavya06@gmail.com | [GitHub](https://github.com/kavyareddy-96)
