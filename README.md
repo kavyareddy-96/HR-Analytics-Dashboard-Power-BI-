@@ -73,7 +73,7 @@ An interactive dashboard was built so HR stakeholders can explore attrition driv
 - Job satisfaction, work-life balance and performance comparisons
 - Slicers and drill-downs for department, job role and other employee attributes
 
-![HR Analytics Dashboard](Screenshot%20of%20HR%20Analytics.png)
+![HR Analytics Dashboard](HR Analytics Dashboard.png)
 
 ---
 
