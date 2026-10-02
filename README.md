@@ -1,4 +1,4 @@
-![HR Analytics Banner](banner.svg)
+![HR Analytics Banner](banner__.svg)
 
 # 👨‍💼 HR Analytics Dashboard | Power BI
 
