@@ -20,12 +20,6 @@ The workflow covers the full analytics pipeline: **raw data → Power Query clea
 
 ---
 
-## 🖼️ Dashboard Preview
-
-![HR Analytics Dashboard](Screenshot%20of%20HR%20Analytics.png)
-
----
-
 ## 🛠️ Tools & Technologies
 
 | Stage                          | Tool        |
@@ -43,8 +37,6 @@ The workflow covers the full analytics pipeline: **raw data → Power Query clea
 | `HR_Analytics.csv`                    | Raw employee dataset                         |
 | `HR Analytics Dashboard.pbix`         | Power BI dashboard file                      |
 | `HR Analytics data and dashboard.zip` | Packaged data + dashboard for offline use    |
-| `Screenshot of HR Analytics.png`      | Screenshot of the dashboard                  |
-| `banner.svg`                          | README banner                                |
 
 ---
 
@@ -80,6 +72,8 @@ An interactive dashboard was built so HR stakeholders can explore attrition driv
 - Demographic views by gender, education and marital status
 - Job satisfaction, work-life balance and performance comparisons
 - Slicers and drill-downs for department, job role and other employee attributes
+
+![HR Analytics Dashboard](Screenshot%20of%20HR%20Analytics.png)
 
 ---
 
